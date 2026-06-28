@@ -2,6 +2,9 @@
   "name": "shopnow-frontend",
   "version": "1.0.0",
   "description": "ShopNow eCommerce Frontend",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,9 +16,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.1.1",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5",
     "vite": "^4.5.0"
   }
 }
